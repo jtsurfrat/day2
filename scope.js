@@ -32,3 +32,8 @@ if (1 === 1) {
     var message_2 = 'hello';
     console.log(message_2);
 }
+var addNumbers = function (number1, number2) {
+    return number1 + number2;
+};
+console.log(addNumbers(2, 5));
+var resAdd = addNumbers(5, 32);

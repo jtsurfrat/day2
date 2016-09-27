@@ -63,3 +63,20 @@ if(1 === 1){
   let message = 'hello';
   console.log(message);
 }
+
+// function
+
+// function statement
+// function addNumbers (number1:number, number2:number){
+//   return number1 + number2;
+// }
+
+// function expression
+
+let addNumbers = function(number1:number, number2:number){
+  return number1 + number2;
+}
+
+console.log(addNumbers(2,5));
+
+let resAdd = addNumbers(5, 32);
